@@ -25,10 +25,82 @@ Do the following if you're using your customized build of modernizr (http://www.
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <script src="respond.min.js"></script>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
 </head>
 <body>
+
 <div class="gridContainer clearfix">
-  <div id="LayoutDiv1"><img src="ussb1.png"></div>
+ <div data-role="page" id="page">
+  <div id="banner"><img src="ussb1.png"></div>
+ 
+ 
+	
+	<div data-role="content">	
+		<ul data-role="listview">
+			 <div data-role="collapsible-set">
+    <div data-role="collapsible">
+      <h6>Home</h6>
+      
+      <p><img src="dsa.jpg"><br>Dear Parents, 
+ The latest DSA information has been updated.<br><br>
+      Awards Night 2013 | Congratulations to all our Students, Teachers, Partners and <br>Alumni for their outstanding achievements! <br><br>
+      Web update | Dear Parents, 
+ The Secondary 2, 4 & 5 Parents' Briefing Slides are <br>available at the Parents' Resources tab. </p>
+    </div>
+    
+  </div>
+            <li><a href="#page3">About Us</a></li>
+			<li><a href="#page4">Student Development & Learning</a></li>
+            <li><a href="#page5">School Routine</a></li>
+            <li><a href="#page6">School Calendar</a></li>
+            <li><a href="#page7">School Partnerships</a></li>
+            <li><a href="#page8">Gallery</a></li>
+		</ul>		
+	</div>
+   
+	 <div data-role="footer">
+	  <h6>© 2013 Unity Secondary School. All Rights Reserved.<br> App build in beta stage. Create by Muhd Roslan.</h6>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Page Two</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Page Three</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Page Four</h1>
+	</div>
+	<div data-role="content">	
+		Content		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
 </div>
 </body>
 </html>
